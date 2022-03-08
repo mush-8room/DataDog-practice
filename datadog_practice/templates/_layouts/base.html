@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{% block title %}{% endblock title %}</title>
+    {% block extra_head %}{% endblock extra_head %}
+</head>
+<body>
+<ul>
+    <li>
+        <a href="{{ url_for('home')}}">HOME</a>
+    </li>
+    <li>
+        <a href="{{ url_for('main.page1')}}">PAGE1</a>
+    </li>
+    <li>
+        <a href="{{ url_for('main.page2')}}">PAGE2</a>
+    </li>
+</ul>
+<hr/>
+<div>
+    {% block main %}
+    {% endblock main %}
+</div>
+</body>
+</html>

@@ -6,6 +6,7 @@ authors = ["greenpea88 <green_pea88@naver.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+Flask = "^2.0.3"
 
 [tool.poetry.dev-dependencies]
 
